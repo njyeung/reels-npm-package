@@ -1,0 +1,15 @@
+{
+  "name": "@reels/darwin-arm64",
+  "version": "1.1.4",
+  "description": "macOS ARM64 binary for reels - TUI Instagram Reels viewer",
+  "os": ["darwin"],
+  "cpu": ["arm64"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njyeung/reels"
+  },
+  "bin": {
+    "reels": "bin/reels"
+  }
+}
