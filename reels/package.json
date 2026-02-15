@@ -1,8 +1,18 @@
 {
-  "name": "@reels/reels",
-  "version": "1.1.4",
-  "description": "TUI Instagram Reels viewer",
+  "name": "@reels/tui",
+  "version": "1.1.5",
+  "description": "Instagram reels in the terminal",
   "license": "MIT",
+  "keywords": [
+    "instagram",
+    "reels",
+    "tui",
+    "terminal",
+    "cli",
+    "doomscrolling",
+    "brainrot",
+    "reels-downloader"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/njyeung/reels"
@@ -11,7 +21,7 @@
     "reels": "bin/reels"
   },
   "optionalDependencies": {
-    "@reels/linux-x64": "1.1.4",
-    "@reels/darwin-arm64": "1.1.4"
+    "@reels/linux-x64": "1.1.5",
+    "@reels/darwin-arm64": "1.1.5"
   }
 }
