@@ -1,6 +1,6 @@
 {
   "name": "@reels/tui",
-  "version": "1.1.51",
+  "version": "1.1.6",
   "description": "Instagram reels in the terminal",
   "license": "MIT",
   "keywords": [
@@ -21,7 +21,7 @@
     "reels": "bin/reels"
   },
   "optionalDependencies": {
-    "@reels/linux-x64": "1.1.5",
-    "@reels/darwin-arm64": "1.1.5"
+    "@reels/linux-x64": "1.1.6",
+    "@reels/darwin-arm64": "1.1.6"
   }
 }
