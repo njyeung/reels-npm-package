@@ -1,6 +1,6 @@
 {
   "name": "@reels/linux-x64",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Linux x64 binary for reels - Instagram reels in the terminal",
   "os": ["linux"],
   "cpu": ["x64"],
