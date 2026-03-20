@@ -1,6 +1,6 @@
 # reels
 
-Instagram reels in the terminal.
+TUI for Instagram Reels. Doomscrollbrainrotmaxxing in the terminal.
 
 ## Install
 
@@ -10,9 +10,17 @@ npm install -g @reels/tui
 
 ## Prerequisites
 
-- **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/), [WezTerm](https://wezfurlong.org/wezterm/), or [Konsole](https://konsole.kde.org/) (Kitty graphics protocol required)
-- **Browser**: Chrome, Chromium, or Brave
-- **FFmpeg**: FFmpeg 8+
+### Terminal
+You need a terminal that supports the **Kitty graphics protocol**:
+- [Kitty](https://sw.kovidgoyal.net/kitty/) (recommended)
+- [WezTerm](https://wezfurlong.org/wezterm/)
+- [Konsole](https://konsole.kde.org/)
+
+### Browser
+Chrome, Chromium, or Brave must be installed. The app uses headless browser automation to interact with Instagram.
+
+### FFmpeg
+FFmpeg 8+ must be installed on your system.
 
 ## Usage
 
@@ -25,17 +33,23 @@ reels
 - `--login` - Open browser window to log in to Instagram
 
 ### Controls
-- `j` / `k` - Next / previous reel
+- `j` - Next reel (scroll comments when open)
+- `k` - Previous reel (scroll comments when open)
 - `Space` - Pause/resume
 - `l` - Like/unlike
-- `c` - Toggle comments
-- `e` - Toggle navbar
+- `e` - Toggle Navbar
+- `c` - Toggle Comments
 - `m` - Mute
-- `]` / `[` - Volume up/down
-- `=` / `-` - Enlarge/shrink video
+- `]` - Volume up
+- `[` - Volume down
+- `s` - Share reel via DM
+- `y` - Copy reel link to clipboard
+- `=` - Enlarge Video
+- `-` - Shrink Video
+- `?` - Help
 - `q` - Quit
 
-All keybinds are configurable in `reels.conf`.
+All keybinds are configurable in `reels.conf`. Each action supports multiple binds.
 
 ## Supported Platforms
 
@@ -43,6 +57,12 @@ All keybinds are configurable in `reels.conf`.
 |----------|---------|
 | Linux x64 | `@reels/linux-x64` |
 | macOS ARM64 | `@reels/darwin-arm64` |
+
+## File Paths
+
+- Settings: `~/.config/reels/reels.conf`
+- Cache: `~/.cache/reels/`
+- Chrome Data: `~/.local/shared/reels/`
 
 ## Links
 
