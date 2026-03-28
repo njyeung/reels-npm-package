@@ -1,8 +1,8 @@
 {
-  "name": "@reels/darwin-arm64",
+  "name": "@reels/linux-arm64",
   "version": "1.2.5",
-  "description": "macOS ARM64 binary for reels - Instagram reels in the terminal",
-  "os": ["darwin"],
+  "description": "Linux ARM64 binary for reels - Instagram reels in the terminal",
+  "os": ["linux"],
   "cpu": ["arm64"],
   "license": "MIT",
   "repository": {
