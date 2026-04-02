@@ -19,12 +19,6 @@ You need a terminal that supports the **Kitty graphics protocol**:
 ### Browser
 Chrome, Chromium, or Brave must be installed. The app uses headless browser automation to interact with Instagram.
 
-### FFmpeg
-**macOS:**
-Requires [`ffmpeg-full`](https://formulae.brew.sh/formula/ffmpeg-full) from Homebrew - `brew install ffmpeg-full`. The standard `brew install ffmpeg` will **not work**. You may also build FFmpeg 8+ from [`source`](https://github.com/ffmpeg/ffmpeg) or use [`MacPorts`](https://ports.macports.org/port/ffmpeg/), as long as the **Apple framework dependencies (VideoToolbox, AudioToolbox, etc.) are properly included**.
-
-**Linux:**
-Any FFmpeg 8+ from your package manager (e.g. `pacman -S ffmpeg`, `apt install ffmpeg`).
 
 ## Usage
 
