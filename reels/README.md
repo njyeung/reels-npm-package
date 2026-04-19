@@ -1,6 +1,14 @@
-# reels
-
-TUI for Instagram Reels. Doomscrollbrainrotmaxxing in the terminal.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/njyeung/reels/main/assets/banner.svg" alt="REELS TUI" width="100%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/njyeung/reels/main/assets/demo_popos.gif" width="35%" />
+  <img src="https://raw.githubusercontent.com/njyeung/reels/main/assets/demo_macos.gif" width="35%">
+  <img src="https://raw.githubusercontent.com/njyeung/reels/main/assets/demo_arch.gif" width="26%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/njyeung/reels/main/assets/subtitle.svg" alt="Doomscrollbrainrotmaxxing in the terminal" width="500">
+</p>
 
 ## Install
 
@@ -39,6 +47,7 @@ reels
 | `key_seek_backward` | `h` | Seek backward by 5 seconds |
 | `key_seek_forward` | `l` | Seek forward by 5 seconds |
 | `key_like` | `space` | Like/unlike |
+| `key_repost` | `r` | Repost/unrepost current reel |
 | `key_share_select` | `space` | Select friend in share panel. Overrides any other bind while share panel is open |
 | `key_pause` | `p` | Pause/resume current reel |
 | `key_save` | `b` | Save/Unsave (bookmark) current reel |
