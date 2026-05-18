@@ -84,6 +84,9 @@ All keybinds are configurable in `reels.conf`. Each action supports multiple bin
 - Settings: `~/.config/reels/reels.conf`
 - Cache: `~/.cache/reels/`
 - Chrome Data: `~/.local/shared/reels/`
+- Logs: `~/.local/state/reels/reels.log`
+
+`Debugging tip: If Reels TUI persistently fails with an error, try rm -rf ~/.local/shared/reels/`
 
 ## Links
 
