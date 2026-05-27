@@ -1,6 +1,6 @@
 {
   "name": "@reels/darwin-arm64",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "macOS ARM64 binary for reels - Instagram reels in the terminal",
   "os": ["darwin"],
   "cpu": ["arm64"],
